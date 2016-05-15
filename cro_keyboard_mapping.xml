@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<root>
+    <item>
+        <name>Croatian keyboard</name>
+        <inputsource_only>CROATIAN</inputsource_only>
+        <item>
+            <name>Option_R (AltGr) + 1, 3, 5, 7</name>
+            <identifier>private.croatian_keyboard.altgr1357</identifier>
+            <appendix>Option_R (AltGr) + 1 = ~</appendix>
+            <autogen>__KeyToKey__ KeyCode::KEY_1, ModifierFlag::OPTION_R,KeyCode::N, ModifierFlag::OPTION_L</autogen>
+            <appendix>Option_R (AltGr) + 3 = ^</appendix>
+            <autogen>__KeyToKey__ KeyCode::KEY_3, ModifierFlag::OPTION_R,KeyCode::I, ModifierFlag::OPTION_L</autogen>
+            <appendix>Option_R (AltGr) + 5 = °</appendix>
+            <autogen>__KeyToKey__ KeyCode::KEY_5, ModifierFlag::OPTION_R,KeyCode::KEY_8, ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L</autogen>
+            <appendix>Option_R (AltGr) + 7 = `</appendix>
+            <autogen>__KeyToKey__ KeyCode::KEY_7, ModifierFlag::OPTION_R,KeyCode::BACKQUOTE, ModifierFlag::OPTION_L</autogen>
+        </item>
+        <item>
+            <name>Option_R (AltGr) + V, B, N, Q, W, F, G</name>
+            <identifier>private.croatian_keyboard.altgrQWBNFGV</identifier>
+            <appendix>Option_R (AltGr) + V = @</appendix>
+            <autogen>__KeyToKey__ KeyCode::V, ModifierFlag::OPTION_R, KeyCode::KEY_2, ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L</autogen>
+            <appendix>Option_R (AltGr) + B = {</appendix>
+            <autogen>__KeyToKey__ KeyCode::B, ModifierFlag::OPTION_R,KeyCode::BRACKET_LEFT, ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L</autogen>
+            <appendix>Option_R (AltGr) + N = }</appendix>
+            <autogen>__KeyToKey__ KeyCode::N, ModifierFlag::OPTION_R,KeyCode::BRACKET_RIGHT, ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L</autogen>
+            <appendix>Option_R (AltGr) + Q = \</appendix>
+            <autogen>__KeyToKey__ KeyCode::Q, ModifierFlag::OPTION_R,KeyCode::BACKSLASH, ModifierFlag::OPTION_L</autogen>
+            <appendix>Option_R (AltGr) + W = |</appendix>
+            <autogen>__KeyToKey__ KeyCode::W, ModifierFlag::OPTION_R,KeyCode::BACKSLASH, ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L</autogen>
+            <appendix>Option_R (AltGr) + F = [</appendix>
+            <autogen>__KeyToKey__ KeyCode::F, ModifierFlag::OPTION_R,KeyCode::BRACKET_LEFT, ModifierFlag::OPTION_L</autogen>
+            <appendix>Option_R (AltGr) + G = ]</appendix>
+            <autogen>__KeyToKey__ KeyCode::G, ModifierFlag::OPTION_R,KeyCode::BRACKET_RIGHT, ModifierFlag::OPTION_L</autogen>
+        </item>
+        <item>
+            <name>Option_R (AltGr) + ,. = &lt; &gt;</name>
+            <identifier>private.croatian_keyboard.altgr_comma_dot</identifier>
+            <appendix>Option_R (AltGr) + , = &lt;</appendix>
+            <autogen>__KeyToKey__ KeyCode::COMMA, ModifierFlag::OPTION_R,KeyCode::RUSSIAN_TILDE</autogen>
+            <appendix>Option_R (AltGr) + . = &gt;</appendix>
+            <autogen>__KeyToKey__ KeyCode::DOT, ModifierFlag::OPTION_R,KeyCode::RUSSIAN_TILDE, ModifierFlag::SHIFT_L</autogen>
+        </item>
+        <item>
+            <name>Key between Y and Shift_L = &lt; &gt;</name>
+            <identifier>private.croatian_keyboard.RUSSIAN_TILDE</identifier>
+            <autogen>__KeyToKey__ KeyCode::UK_SECTION, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT,KeyCode::RUSSIAN_TILDE, ModifierFlag::SHIFT_L</autogen>
+            <autogen>__KeyToKey__ KeyCode::UK_SECTION, KeyCode::RUSSIAN_TILDE</autogen>
+        </item>
+    </item>
+</root>
